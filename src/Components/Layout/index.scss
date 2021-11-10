@@ -1,0 +1,11 @@
+.layout_box {
+  height: calc(100vh - 60px);
+  position: relative;
+  background-color: #EFEFEF;
+  overflow: auto;
+}
+
+.layout_content {
+  overflow: auto;
+  padding: 20px;
+}

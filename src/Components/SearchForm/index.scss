@@ -1,0 +1,16 @@
+.search_form_box {
+  overflow: hidden;
+  :global{
+    .ant-form-item {
+      &:last-child {
+        float: right;
+        margin-right:0 ;
+      }
+    }
+  }
+  .search_btn {
+    display: flex;
+    align-items: center;
+    height: 40px;
+  }
+}

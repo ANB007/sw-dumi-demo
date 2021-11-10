@@ -1,0 +1,142 @@
+// 主色
+$main-color: rgb(255, 128, 64);
+$functional-color: #2e85d9;
+// 中间色
+$cm-color: #ffffff;
+$cm1-color: #000000;
+$cm2-color: #1e2631;
+$cm3-color: #363f4e;
+$cm4-color: #515c6e;
+$cm5-color: #9297a1;
+$cm6-color: #c4c6cc;
+$cm7-color: #d1d3d8;
+$cm8-color: #dfe1e6;
+$cm9-color: #e9ebf0;
+$cm10-color: #f4f6f9;
+$cm11-color: #fafcff;
+$cm12-color: #7f8492;
+// 分割线颜色
+$level1-border-color: #dfe1e6;
+$level2-border-color: #d1d3d8;
+$level3-border-color: #c4c6cc;
+$level4-border-color: #9297a1;
+$level5-border-color: #ff8040;
+// 常规文字颜色
+$regular1-text-color: #333333;
+$regular2-text-color: #4c4c4c;
+$regular3-text-color: #666666;
+$regular4-text-color: #999999;
+$regular5-text-color: #b2b2b2;
+// 功能文字颜色
+$main-text-color: #ff8040;
+$error-text-color: #ff3b30;
+$warn-text-color: #ff9500;
+$remind-text-color: #ffcc00;
+$success-text-color: #00cc66;
+$notice-text-color: #3399ff;
+$link-text-color: #2c85d9;
+// 字号大小
+$title-lg-size: 20px;
+$title-md-size: 16px;
+$title-sm-size: 14px;
+$text-base-size: 14px;
+$text-sm-size: 12px;
+// 圆角
+$fillet-lg-radius: 20px;
+$fillet-md-radius: 6px;
+$fillet-base-radius: 3px;
+
+$form-focus-border-color: #3195f2;
+
+$page-line-height: 27px;
+
+.ant-checkbox-wrapper + .ant-checkbox-wrapper {
+  margin-left: 0;
+}
+.ant-table-wrapper {
+  border: 1px solid $cm7-color;
+}
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td {
+  padding: 11px 16px;
+}
+.ant-table-pagination.ant-pagination {
+  text-align: right;
+  width: 100%;
+  margin: 0;
+  padding: 6px;
+
+  li {
+    min-width: $page-line-height;
+    height: $page-line-height;
+    line-height: $page-line-height;
+  }
+
+  .ant-select-selection--single {
+    height: $page-line-height;
+  }
+
+  .ant-select-selection__rendered {
+    line-height: $page-line-height;
+  }
+
+  .ant-pagination-options-quick-jumper {
+    line-height: $page-line-height;
+    input {
+      height: $page-line-height;
+    }
+  }
+}
+.ant-pagination-total-text {
+  float: left;
+  color: $cm4-color;
+  font-size: $text-sm-size;
+}
+
+.ant-modal-footer {
+  text-align: center;
+}
+
+.ant-modal-confirm-btns {
+  width: 100%;
+  text-align: center;
+}
+form .dpl-input-number {
+  margin-top: 5px;
+}
+.dpl-input-number-input-wrap {
+  line-height: 30px;
+}
+.ant-input:focus,
+.ant-cascader-picker:focus .ant-cascader-input,
+.ant-select-selection:focus {
+  border-color: $form-focus-border-color;
+  box-shadow: 0 0 6px 0 rgb(49 149 242 / 70%);
+}
+
+.ant-btn:hover,
+.ant-btn:focus {
+  background: #f4f6f9;
+  border-color: #c4c6cc;
+  color: $regular1-text-color;
+}
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  background-color: #e15616;
+  border-color: #e15616;
+  color: $cm-color;
+}
+.ant-form-explain,
+.ant-form-extra {
+  min-height: 20px;
+  font-size: $text-sm-size;
+}
+.ant-form-item {
+  margin-bottom: 18px;
+}
+.ant-form-item-with-help {
+  margin-bottom: 3px;
+}
+.main_color {
+  color: $main-color;
+}

@@ -1,0 +1,15 @@
+{
+  "primary-color": "#000000",
+  "table-header-bg": "#e9ebf0",
+  "table-padding-vertical": "10px",
+  "border-color-split": "#D1D3D8",
+  "border-radius-base": "2px",
+  "link-color": "#2E85D9",
+  "input-hover-border-color": "#9297A1",
+  "item-hover-bg": "#E3E6ED",
+  "btn-shadow": "0 0 0 #ccc",
+  "btn-primary-shadow": "0 0 0 #ccc",
+  "btn-text-shadow": "0 0 0 #ccc",
+  "input-height-base": "30px",
+  "table-row-hover-bg": "#E6F3FF"
+}
